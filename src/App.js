@@ -5,6 +5,9 @@ import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import Portfolio from "Portfolio";
+import Footer from "Footer";
+import AboutMe from "AboutMe";
+import Contact from "Contact";
 
 export default function LabTabs() {
   const [value, setValue] = React.useState("1");
@@ -19,16 +22,21 @@ export default function LabTabs() {
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <TabList onChange={handleChange} centered>
             <Tab label="Portfolio" value="1" />
-            <Tab label="Me" value="2" />
+            <Tab label="About Me" value="2" />
             <Tab label="Contact" value="3" />
           </TabList>
         </Box>
         <TabPanel value="1">
           <Portfolio />
         </TabPanel>
-        <TabPanel value="2">Item Two</TabPanel>
-        <TabPanel value="3">Item Three</TabPanel>
+        <TabPanel value="2">
+          <AboutMe />
+        </TabPanel>
+        <TabPanel value="3">
+          <Contact />
+        </TabPanel>
       </TabContext>
+      <Footer />
     </Box>
   );
 }

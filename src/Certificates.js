@@ -29,6 +29,22 @@ export default function Certificates() {
           </ul>
         </Box>
       </Box>
+      <Box paddingLeft="5%">
+        <Box display="flex" flexDirection="row" alignItems="center">
+          <Typography paddingRight="1%" paddingBottom="0" variant="h4">
+            Learn C++ Course Certificate
+          </Typography>
+          <p> - Codecademy.com</p>
+        </Box>
+      </Box>
+      <Box paddingLeft="5%">
+        <Box display="flex" flexDirection="row" alignItems="center">
+          <Typography paddingRight="1%" paddingBottom="0" variant="h4">
+            Learn HTML Course Certificate
+          </Typography>
+          <p> - Codecademy.com</p>
+        </Box>
+      </Box>
     </Box>
   );
 }
