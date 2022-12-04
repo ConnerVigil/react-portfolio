@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Link, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -21,18 +21,27 @@ export default function Portfolio() {
       <Box display="flex" flexDirection="column" alignItems="center">
         <Typography variant="h1">Conner Vigil</Typography>
         <Box display="flex" flexDirection="row" gap="3">
-          <LinkedInIcon
-            sx={{ color: "#0072b1", fontSize: 30, padding: "10px" }}
-          />
-          <GitHubIcon sx={{ color: "#333", fontSize: 30, padding: "10px" }} />
-          <InstagramIcon
-            className="instaIcon"
-            sx={{
-              fontSize: 30,
-              padding: "10px",
-              color: "orange",
-            }}
-          />
+          <Link
+            target="_blank"
+            href="https://www.linkedin.com/in/conner-vigil-5920531b6/"
+          >
+            <LinkedInIcon
+              sx={{ color: "#0072b1", fontSize: 30, padding: "10px" }}
+            />
+          </Link>
+          <Link target="_blank" href="https://github.com/ConnerVigil">
+            <GitHubIcon sx={{ color: "#333", fontSize: 30, padding: "10px" }} />
+          </Link>
+          <Link target="_blank" href="https://www.instagram.com/connervigil82/">
+            <InstagramIcon
+              className="instaIcon"
+              sx={{
+                fontSize: 30,
+                padding: "10px",
+                color: "orange",
+              }}
+            />
+          </Link>
         </Box>
       </Box>
       <Box sx={{ width: "85%" }} display="flex" flexDirection="column">
