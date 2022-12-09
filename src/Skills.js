@@ -4,7 +4,9 @@ import React from "react";
 export default function Skills() {
   return (
     <Box>
-      <Typography variant="h2">Software Skills</Typography>
+      <Typography sx={{ typography: { xs: "h5", sm: "h4", lg: "h2" } }}>
+        Software Skills
+      </Typography>
       <Box paddingLeft="3%">
         <ul>
           <li>
