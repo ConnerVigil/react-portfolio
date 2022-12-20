@@ -9,6 +9,7 @@ import Skills from "Skills";
 import Projects from "Projects";
 import Certificates from "Certificates";
 import portraitPic from "images/Portrait.jpg";
+import Particles from "react-tsparticles";
 
 export default function Portfolio() {
   return (
@@ -18,6 +19,7 @@ export default function Portfolio() {
       flexDirection="column"
       alignItems="center"
     >
+      <Particles />
       <Box display="flex" flexDirection="column" alignItems="center">
         <Typography sx={{ typography: { xs: "h3", sm: "h3", lg: "h1" } }}>
           Conner Vigil

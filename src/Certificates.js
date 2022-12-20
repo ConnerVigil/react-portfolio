@@ -67,6 +67,22 @@ export default function Certificates() {
             {" "}
             - Codecademy.com
           </Typography>
+          <Box
+            boxShadow={9}
+            sx={{
+              backgroundColor: "black",
+              color: "white",
+              marginLeft: "2%",
+              padding: "0.5%",
+              borderRadius: "5px",
+            }}
+          >
+            <Typography
+              sx={{ typography: { xs: "body2", sm: "body2", lg: "body1" } }}
+            >
+              August 2021
+            </Typography>
+          </Box>
         </Box>
       </Box>
       <Box paddingLeft="5%">
@@ -84,6 +100,22 @@ export default function Certificates() {
             {" "}
             - Codecademy.com
           </Typography>
+          <Box
+            boxShadow={9}
+            sx={{
+              backgroundColor: "black",
+              color: "white",
+              marginLeft: "2%",
+              padding: "0.5%",
+              borderRadius: "5px",
+            }}
+          >
+            <Typography
+              sx={{ typography: { xs: "body2", sm: "body2", lg: "body1" } }}
+            >
+              November 2020
+            </Typography>
+          </Box>
         </Box>
       </Box>
     </Box>

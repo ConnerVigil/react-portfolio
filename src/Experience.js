@@ -22,6 +22,22 @@ export default function Experience() {
             {" "}
             - BYU College of Life Sciences
           </Typography>
+          <Box
+            boxShadow={9}
+            sx={{
+              backgroundColor: "black",
+              color: "white",
+              marginLeft: "2%",
+              padding: "0.5%",
+              borderRadius: "5px",
+            }}
+          >
+            <Typography
+              sx={{ typography: { xs: "body2", sm: "body2", lg: "body1" } }}
+            >
+              August 2022 - Present | UT
+            </Typography>
+          </Box>
         </Box>
         <Box>
           <ul>
@@ -67,6 +83,22 @@ export default function Experience() {
             {" "}
             - foreUP Software
           </Typography>
+          <Box
+            boxShadow={9}
+            sx={{
+              backgroundColor: "black",
+              color: "white",
+              marginLeft: "2%",
+              padding: "0.5%",
+              borderRadius: "5px",
+            }}
+          >
+            <Typography
+              sx={{ typography: { xs: "body2", sm: "body2", lg: "body1" } }}
+            >
+              April - August 2022 | UT
+            </Typography>
+          </Box>
         </Box>
         <Box>
           <ul>
